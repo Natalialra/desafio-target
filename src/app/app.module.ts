@@ -8,13 +8,15 @@ import { FibonacciComponent } from './fibonacci/fibonacci.component';
 import {FormsModule} from "@angular/forms";
 import { FaturamentoDiarioComponent } from './faturamento-diario/faturamento-diario.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FaturamentoMensalComponent } from './faturamento-mensal/faturamento-mensal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FibonacciComponent,
-    FaturamentoDiarioComponent
+    FaturamentoDiarioComponent,
+    FaturamentoMensalComponent
   ],
   imports: [
     BrowserModule,
