@@ -1,1 +1,16 @@
-<p>fibonacci works!</p>
+<div class="fibonacci-checker">
+  <h2>Verificador de Fibonacci</h2>
+
+  <label for="numberInput">Digite um número:</label>
+  <input
+    id="numberInput"
+    type="number"
+    [(ngModel)]="numberInput"
+    placeholder="Ex: 21"
+  />
+
+  <button (click)="checkFibonacci()">Verificar</button>
+
+  <p *ngIf="resultMessage">{{ resultMessage }}</p>
+</div>
+
