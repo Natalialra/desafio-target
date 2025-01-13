@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FibonacciComponent } from './fibonacci/fibonacci.component';
 import {FormsModule} from "@angular/forms";
+import { FaturamentoDiarioComponent } from './faturamento-diario/faturamento-diario.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FibonacciComponent
+    FibonacciComponent,
+    FaturamentoDiarioComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
