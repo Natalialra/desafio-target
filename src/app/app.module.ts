@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FibonacciComponent } from './fibonacci/fibonacci.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { FibonacciComponent } from './fibonacci/fibonacci.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
